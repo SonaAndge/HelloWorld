@@ -23,10 +23,12 @@ public class AssMathOperation {
 	public void init()
 	{
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter first number ");
-		x = s.nextInt();
-		System.out.println("Enter second number ");
-		y = s.nextInt();
+		//System.out.println("Enter first number ");
+		//x = s.nextInt();
+		//System.out.println("Enter second number ");
+		//y = s.nextInt();
+		x=10;
+		y=5;
 		
 	}
 	public void add()
