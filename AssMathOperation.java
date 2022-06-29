@@ -31,7 +31,7 @@ public class AssMathOperation {
 		y=5;
 		
 	}
-	public void add()
+	/*public void add()
 	{
 		R = x + y;
 	}
@@ -50,15 +50,19 @@ public class AssMathOperation {
 	public void divide()
 	{
 		 R = x / y;
-	}
+	}*/
 	public void display()
 	{
-		System.out.println("The output is "+R);
+		System.out.println("The Addition is "+(x+y));
+		System.out.println("The Subtraction is "+ (x-y));
+		System.out.println("The Multiplication is "+ (x*y));
+		System.out.println("The Division is "+ (x/y));
 	}
 	public static void main(String[] args)
 	{
 		AssMathOperation m = new AssMathOperation();
-		m.init();
+		m.display();
+		/*m.init();
 		m.add();
 		m.display();
 		m.multiply();
@@ -66,7 +70,7 @@ public class AssMathOperation {
 		m.power();
 		m.display();
 		m.divide();
-		m.display();
+		m.display();*/
 		
 	}
 
