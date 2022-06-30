@@ -1,10 +1,10 @@
-package upto70;
+
 
 import java.util.Scanner;
 
 public class Calculator {
 	
-	private int X,Y,R;
+	public int X,Y,R;
 	
 	public void init(int X,int Y)
 	{
